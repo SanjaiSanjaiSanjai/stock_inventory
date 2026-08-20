@@ -1,4 +1,4 @@
-import {useNavigate} from 'react-router-dom'
+import {Link, useNavigate} from 'react-router-dom'
 import { useState } from 'react'
 // import css files
 import '../styles/signup.css'
@@ -67,7 +67,7 @@ const Signup = () => {
                     <p style={{ color: 'red', marginTop: '10px' }}>{errorMessage}</p>
                 )}
             </div>
-            <div><p>already have account <a href="/login">login</a></p></div>
+            <div><p>already have account <Link to="/login">login</Link></p></div>
         </div>
     </div>
     
