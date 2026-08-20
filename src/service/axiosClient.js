@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const API_URL = 'http://localhost:8000'
+const API_URL = 'https://stock-inventory-backend-lilac.vercel.app'
 const REFRESH_TOKEN_URL = '/refresh-token'
 let refreshRequest = null
 
